@@ -1,0 +1,75 @@
+@media (min-width: 768px) {
+  .addCardButton {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+}
+/* header */
+.principalCard {
+  width: 100%;
+  max-width: 240px;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: var(--rose-50);
+  border-radius: 9px;
+}
+.headerCard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.imageCard {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+p {
+  margin: 1%;
+}
+
+.addCardButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  max-width: 180px;
+  padding: 0.6rem 1rem;
+  background: var(--rose-100);
+  color: var(--rose-900);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-semibold);
+  border: 1px solid var(--rose-900);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* body */
+.bodyCard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: var(--font-family);
+}
+.bodyCategory {
+  font-size: 14px;
+  color: var(--rose-400);
+}
+.bodyName {
+  font-weight: var(--font-weight-semibold);
+  font-size: 16px;
+  color: var(--rose-900);
+}
+.bodyPrice {
+  font-weight: var(--font-weight-semibold);
+  font-size: 15px;
+  color: var(--red);
+}
