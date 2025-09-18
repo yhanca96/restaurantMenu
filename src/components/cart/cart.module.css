@@ -1,0 +1,113 @@
+body {
+  background-color: var(--rose-100);
+}
+
+.principalCart {
+  width: 30%;
+  background-color: white;
+  font-family: var(--font-family);
+  border-radius: 10px;
+  height: max-content;
+  padding: 10px;
+  margin: 0 auto;
+}
+.principalCart h1 {
+  font-weight: var(--font-weight-semibold);
+  color: var(--red);
+  margin: 0;
+  padding: 10px;
+}
+.cartDetail {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cartDetail:hover {
+  background-color: var(--rose-50);
+  border-radius: 15px;
+}
+.cartName {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--rose-100);
+}
+
+.cartPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.cartPrice p:first-child {
+  color: var(--red);
+  font-weight: var(--font-weight-semibold);
+}
+
+.cartPrice p:nth-child(2) {
+  color: var(--rose-300);
+}
+
+.cartPrice p:last-child {
+  color: var(--rose-400);
+  font-weight: var(--font-weight-semibold);
+}
+.cartDelete {
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid var(--rose-400);
+}
+.cartDelete:hover {
+  border: 1px solid var(--rose-900);
+}
+.cartTotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.cartTotal p {
+  font-size: 14px;
+  color: var(--rose-500);
+  font-weight: var(--font-weight-semibold);
+}
+.cartTotal h2 {
+  font-size: 23px;
+  color: var(--rose-900);
+  font-weight: var(--font-weight-bold);
+}
+.message p {
+  font-size: 12px;
+}
+
+.message {
+  background-color: var(--rose-50);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.cartButton {
+  margin-top: 12px;
+  color: var(--rose-50);
+  width: 100%;
+  border-radius: 20px;
+  background-color: var(--red);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cartButton:hover {
+  background-color: var(--rose-900);
+}
