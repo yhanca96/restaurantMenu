@@ -1,9 +1,38 @@
+/* Contenedor Grid */
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive para pantallas medianas */
+@media (max-width: 768px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
+  }
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 480px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
 @media (min-width: 768px) {
   .addCardButton {
     width: 50%;
     font-size: 1.1rem;
   }
 }
+
 /* header */
 .principalCard {
   width: 100%;
@@ -13,6 +42,7 @@
   background-color: var(--rose-50);
   border-radius: 9px;
 }
+
 .headerCard {
   display: flex;
   flex-direction: column;
@@ -26,6 +56,7 @@
   display: block;
   border-radius: 10px;
 }
+
 p {
   margin: 1%;
 }
@@ -59,15 +90,18 @@ p {
   margin-bottom: 10%;
   font-family: var(--font-family);
 }
+
 .bodyCategory {
   font-size: 14px;
   color: var(--rose-400);
 }
+
 .bodyName {
   font-weight: var(--font-weight-semibold);
   font-size: 16px;
   color: var(--rose-900);
 }
+
 .bodyPrice {
   font-weight: var(--font-weight-semibold);
   font-size: 15px;
