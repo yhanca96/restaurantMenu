@@ -3,13 +3,11 @@ body {
 }
 
 .principalCart {
-  width: 30%;
   background-color: white;
   font-family: var(--font-family);
   border-radius: 10px;
   height: max-content;
   padding: 10px;
-  margin: 0 auto;
 }
 .principalCart h1 {
   font-weight: var(--font-weight-semibold);

@@ -1,10 +1,10 @@
 import "./App.css";
-// import { menus } from "../data.json";
-// import Card from "./components/card/card";
-import OrderConfirm from "./components/modalConfirm/confirmOrder";
+
+import Principal from "./views/menu";
+
 function App() {
-  return <OrderConfirm />;
-  // <Card menus={menus} />;
+  return <Principal />;
+
 }
 
 export default App;
