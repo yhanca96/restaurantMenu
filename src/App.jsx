@@ -1,8 +1,8 @@
 import "./App.css";
-import { menus } from "../data.json";
-import Card from "./components/card/card";
+import Principal from "./views/menu";
+
 function App() {
-  return <Card menus={menus} />;
+  return <Principal />;
 }
 
 export default App;
